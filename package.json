@@ -1,0 +1,30 @@
+{
+  "name": "test-web-developer",
+  "version": "1.0.0",
+  "description": "LeaseLabs Front-End Web Developer Test by Brian Hafner",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leaselabsco/test-web-developer.git"
+  },
+  "author": "Brian Hafner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leaselabsco/test-web-developer/issues"
+  },
+  "homepage": "https://github.com/leaselabsco/test-web-developer#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "gulp-jshint": "^2.1.0",
+    "gulp-sourcemaps": "^1.12.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}

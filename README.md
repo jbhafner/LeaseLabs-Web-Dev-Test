@@ -1,5 +1,5 @@
-#LeaseLabs/DZAP Front-End Web Developer Test
-Completed by Brian Hafner January 22nd, 2018
+LeaseLabs/DZAP Front-End Web Developer Test
+Completed by Brian Hafner January 24th, 2018
 =============================
 
 # Development Notes
@@ -10,11 +10,11 @@ Completed by Brian Hafner January 22nd, 2018
 # File Structure
 
 1. All the Sass working files are in process/sass
-2. style.scss loads the following files:
-	a. _normalize.scss -- for browser consistency
-	b. _variables.scss -- loads fonts and colors
-	c. _grid.scss -- css definitions for working with Grid
-	d. _base.scss -- css definitions for base styles
+2. style.scss loads the following files:<br/>
+	a. _normalize.scss -- for browser consistency<br/>
+	b. _variables.scss -- loads fonts and colors<br/>
+	c. _grid.scss -- css definitions for working with Grid<br/>
+	d. _base.scss -- css definitions for base styles<br/>
 	e. _navigation.scss -- css definitions for navigation
 3. Gulp builds the css file and stores it in builds/css
 4. The /builds folder also contains the images and js folders.

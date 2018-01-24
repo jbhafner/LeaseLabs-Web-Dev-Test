@@ -1,43 +1,109 @@
-html {
-  font-size: 62.5%;
-}
-
 body {
-  margin: 0;
+  width: 100%;
   padding: 0;
-  font-size: 1.8rem;
+  // font-size: 1.8rem;
   font-family: $font-main;
-  color: $color-main;
-  background-color: $color-backgrounds;
+  // color: $color-main;
+  background-color: $normalwhite;
   display: inline-block;
 }
 
-// .container {
-//   width: 80%;
-//   margin: 0 auto;
-// }
-
-div {
-	display: inline-block;
+h2 {
+	color: $colorh2;
+	margin: 0;
 }
 
-header {
-	display: flex;
-	flex-direction: row;
-}
-
-h3 {
+h4 {
+	color: $subnavtxt;
 	background-color: $subnavbkgrd;
-	width: 80%;
+	padding: 10px;
 	border-radius: 5px;
+	width: 80%;
+	font-size: 11px;
 }
 
-hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
+h5 {
+	color: $colorh5;
+	font-style: italic;
+	margin: 0 0 0 10px;
+}
+
+p {
+	color: $colortext;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li {
+	color: $subnavitem;
+	font-size: 12px;
+	padding: 2px;
+}
+
+#specials {
+	color: $normalwhite;
+}
+
+#specials:hover {
+	color: black;
+}
+
+.nav-bar a:hover {
+	color: $navtxthover;
+}
+
+.sidebar a:hover {
+	color:$navtxthover;
+}
+
+.hr-line {
+	margin: 0;
+	padding: 0;
+}
+
+.img {
+	height: 150px;
+	width: 200px;
+	background-size: cover;
+	margin: 0 10px 0 10px;
+	border: solid black 1px;
+}
+
+// for photo image hover
+
+.container {
+	display: inline-block;
+	position: relative;
+	height: 150px;
+	width: 200px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    height: 150px;
+    width: 200px;
+    opacity: 0;
+    background-color: #8A2BE2;
+}    
+
+.container:hover .overlay {
+  opacity: .5;
+}
+
+.caption {
+	color: white;
+	text-align: center;
+}
+
+.caption p {
+	color: white;
+	font-style: bold;
+	font-size: 14px;
 }

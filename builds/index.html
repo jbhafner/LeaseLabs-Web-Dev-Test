@@ -20,29 +20,26 @@
 	<title>LeaseLabs Web Dev Test</title>
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
-
-
 </head>
-<body>
 
+<body>
 	<div class="wrapper">
 		<!-- <header> -->
 			<img class="logo" src="images/leaselabs_logo_fullstack_rgb.png"/>
 			<nav class="nav-bar">
-				<div class="c5"><a href="#">HOME</a></div>
-				<div class="c6"><a href="#">OUR WORK</a></div>
-				<div class="c7"><a href="#">ABOUT US</a></div>
-				<div class="c8"><a href="#">CONTACT US</a></div>
-				<div class="c9"><a href="#">SPECIALS</a></div>
+				<div class="nav-col-3-home"><a href="#">HOME</a></div>
+				<div class="nav-col-4-ourWork"><a href="#">OUR WORK</a></div>
+				<div class="nav-col-5-aboutUs"><a href="#">ABOUT US</a></div>
+				<div class="nav-col-6-contactUs"><a href="#">CONTACT US</a></div>
+				<div class="nav-col-7-specials"><a id="specials" href="#">SPECIALS</a></div>
 			</nav><!-- close nav -->
-		<!-- </header> -->
 
-		<hr/>
-
-
+		<div class="hr-line">
+			<hr/>
+		</div><!-- close hr-line -->	
 
 		<div class="sidebar">
-			<h3>SUBNAV</h3>
+			<h4>  SUBNAV</h4>
 			<ul class="menu">
 				<li><a href="#">Link 1</a></li>
 				<li><a href="#">Link 2</a></li>
@@ -50,26 +47,43 @@
 			</ul>	
 			<br />
 			<br />
-			<h3>RELATED LINKS</h3>
+			<h4>  RELATED LINKS</h4>
 			<ul>
 				<li><a href="#">Link 1</a></li>
 				<li><a href="#">Link 2</a></li>
 				<li><a href="#">Link 3</a></li>
 			</ul>
 		</div><!-- close sidebar -->
+
 		<div class="content">
 			<h2>HEADING 1</h2>
-			<H5>  heading 2</H5>
+			<h5>  heading 2</h5>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique magnam sint harum eveniet quasi repellat id modi qui quia! Omnis laboriosam cum nobis debitis similique quam vero eius nemo harum?</p>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ducimus, perspiciatis sit blanditiis doloribus unde culpa, fugit suscipit nostrum alias dicta architecto in aspernatur rerum iusto dignissimos, quisquam officiis adipisci.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ducimus, perspiciatis sit blanditiis doloribus unde culpa, fugit suscipit nostrusd alias dicta architecto in aspernatur rerum iusto dignissimos, quisquam officiis adipisci.</p>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem velit nulla voluptatibus repudiandae, maxime animi rerum quam, mollitia quidem, commodi earum? Eum architecto, ut deleniti ipsam voluptates laboriosam enim odio?</p>	
 		</div><!-- close content -->
+
 		<div class="images">
-			<img id="img1">
-			<img id="img2">
-			<img id="img3">
+			<div class="container">
+				<img class="img" id="img1">
+				<div class="overlay">
+					<div class="caption" id="img1-caption"></div>
+				</div><!-- close overlay / img1 -->
+			</div><!-- close container / img1 -->
+			<div class="container">				
+			<img class="img" id="img2">
+				<div class="overlay">
+					<div class="caption" id="img2-caption"></div>
+				</div><!-- close overlay / img2 -->
+			</div><!-- close container / img2 -->
+			<div class="container">			
+				<img class="img" id="img3">
+				<div class="overlay">
+					<div class="caption" id="img3-caption"></div>
+				</div><!-- close overlay / img3 -->
+			</div><!-- close container / img3 -->		
 		</div><!-- close images -->	
 	</div><!-- close wrapper	-->
 

@@ -4,9 +4,11 @@
 
 .nav-bar {
 	grid-area: nav;
-	// display: inline-block;
 }
 
+.hr-line {
+	grid-area: hr;
+}
 .sidebar {
 	grid-area: sd;
 }
@@ -19,61 +21,58 @@
 	grid-area: img;
 }
 
+// display for small screens
 .wrapper {
-	width: 80%;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-auto-rows: auto;
-	grid-template-areas:
-	"lg . nav nav nav nav nav"
-	"sd main main main main main main"
-	".  img img img img img img";
-	// grid-column-gap: 20px;
-};
+	.nav-bar {
+		margin-top: 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 10px;
+	}
 
-// #img1 {
-// 	grid-row-start: 4;
-// 	grid-row-end: 5;
-// }
+	a {
+		padding: 7px;
+	}
 
-// #img2 {
-// 	grid-row-start: 6;
-// 	grid-row-end: 7;
-// }
-
-// #img {
-// 	grid-row-start: 8;
-// 	grid-row-end:9;
-// }
-
-.images {
-	// column-count: 1;
-	// column-gap: 5px;
-	// display: inline-block;
+	.logo {
+		object-fit: none;
+	}
+	#specials {
+		background-size: 110%;
+	}
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-item: center;
 }
 
-.images img {
-  border: 0 none;
-  display: inline;
-  align: center;
-  margin: 10px;
-  height: auto;
-  max-width: 30%;
-  vertical-align: middle;
+//display for large screens
+@media (min-width: 768px) {
+	.wrapper {
+		.nav-bar{
+			margin-top: 0;
+			display: flex;
+			flex-direction: row;
+		}
+		.logo {
+			object-fit: fill;
+		}
+		#specials {
+			background-size: 100%;
+		}		
+		padding: 20px;
+		max-width: none;
+		margin: auto;
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-auto-rows: auto;
+		grid-template-areas:
+		"lg . nav nav nav nav nav"
+		"hr hr hr  hr  hr  hr  hr"
+		"sd main main main main main main"
+		".  img img img img img img";
+	};
+};	
 
-	// width: 100%;	
-	// height: auto;
-
-	// position: relative;
-	// float: left;
-	// width: 100px;
-	// height: 100px;
-	// background-position: 50% 50%;
-	// background-repeat: no-repeat;
-	// background-size: cover;
-	// max-width: 200px;
-	// column-count: 2;
-	// column-gap: 10px;
-	// clip-path: rect(40px, 260px, 150px, 80px);
-}	
+	

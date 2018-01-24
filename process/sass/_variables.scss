@@ -1,17 +1,17 @@
 // Load Fonts
 
-// @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700|Roboto:400,700);
 
 $normalwhite: #FFFFFF;
 $bluestripe:  #08ABD8;
 $navtxt:      #343e47;
-$navtxthover: #3EB2E4; 
+$navtxthover: #60BDFC; 
 $blueh1:		  #5698C9;
-$colorh2:	  #9FABA8;
-$colortext:   #CDCDCD;
+$colorh2:	  #00A7E0;
+$colorh5:	  #525962;	
+$colortext:   #9EA1A6;
 $subnavbkgrd: #E3E3E3;
-$subnavtxt:   #9E9E9E;
+$subnavtxt:   #61696F;
 $subnavitem:  #F1F0F2;	
 
 
@@ -23,15 +23,6 @@ $green:       #548C27;
 $orange:      #F39856;
 $red:         #D14348;
 $purple:      #6D73C2;
-
-
-$color-main: $darkblue;
-$color-backgrounds: $normalwhite;
-$color-headlines: $red;
-
-
-// $font-main: Merriweather, Helvetica, sans-serif;
-// $font-highlight: 'Bree Serif', Helvetica, sans-serif;
 
 $font-main: Lato, Helvetica, sans-serif;
 $font-highlight: Roboto, Helvetica, sans-serif;

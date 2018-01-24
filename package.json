@@ -4,7 +4,9 @@
   "description": "LeaseLabs Front-End Web Developer Test by Brian Hafner",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "dev": "gulp webserver"
   },
   "repository": {
     "type": "git",

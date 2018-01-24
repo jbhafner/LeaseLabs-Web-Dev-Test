@@ -1,30 +1,3 @@
-// .nav-bar {
-// 	grid-column: 4 / span 6;
-// 	grid-row: first-line / 1;
-// }
-
-// nav {
-// 	display: grid;
-// 	grid-template-column: repeat(4fr, 1fr, 1fr, 1fr, 1fr, 1fr);
-// 	grid-auto-rows: auto;
-// 	grid-gap: 1em;
-// 	align-items: center;
-// 	text-align: center;
-// 	border-bottom: 1px grey;
-// 	font: 50%;
-// }
-// // *** using Grid
-// #navlinks {
-// 	display: flex;
-// 	justify-content: flex-end;
-// 	flex-wrap: nowrap;
-// }
-
-// #navlinks li {
-// 	list-style: none;
-// 	margin-right: 5px;
-// }
-
 .nav-bar {
 	display: flex;
 	flex-direction: row;
@@ -37,13 +10,11 @@
 
 // logo
 .logo {
-	display: flex;
-	flex-direction: row;
-	align-items: flex-end;
-	justify-content: flex-start;
+	max-width: 100%;
+	object-fit: none;
 }
 
-.c5 {
+.nav-col-3-home {
 	height: 100%;
 	display: flex;
 	flex: 1;
@@ -52,7 +23,7 @@
 	justify-content: center;
 }
 
-.c6 {
+.nav-col-4-ourWork {
 	height: 100%;
 	display: flex;
 	flex: 1;
@@ -61,7 +32,7 @@
 	justify-content: center;
 }
 
-.c7 {
+.nav-col-5-aboutUs {
 	height: 100%;
 	display: flex;
 	flex: 1;
@@ -70,7 +41,7 @@
 	justify-content: center;
 }
 
-.c8 {
+.nav-col-6-contactUs {
 	height: 100%;
 	display: flex;
 	flex: 1;
@@ -79,7 +50,8 @@
 	justify-content: center;
 }
 
-.c9 {
+.nav-col-7-specials {
+	color: $normalwhite;
 	height: 100%;
 	display: flex;	
 	flex: 1;
@@ -95,18 +67,6 @@
 		$bluestripe 85%, 
 		$normalwhite 90%
 	);
-
-
-//   position:absolute;
-//   height:100%;
-//   width:100%;
-//   bottom :0;
-//   right: -12%;
-//   background:rgba(0,0,0,0.2);
-//   transform:skewX(-45deg);
-//   box-shadow:inset 0 0 3px red;	
 }
 
-a {
-	text-decoration: none;
-}
+

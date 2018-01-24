@@ -42,4 +42,4 @@ gulp.task('webserver', function() {
 });
 
 // Default
-gulp.task('default', ['watch', 'sass', 'webserver']);
+gulp.task('default', ['sass']);
